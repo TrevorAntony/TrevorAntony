@@ -3,10 +3,12 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Hey,+I'm+Trevor+Antony;I+love+open-source;I+specialize+in+TypeScript;I+build+impactful+solutions;Let's+innovate+together!&center=true&width=500&height=50"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Hello+Stranger+👋;I+love+open-source;I+specialize+in+TypeScript;I+build+impactful+solutions;Let's+innovate+together!&center=true&width=500&height=50"></a>
 </p>
 
-Hi 👋 My name is
+<h1 align="center">
+My name is
+</h1>
 ==============================
 ```
   _____                          _          _                    

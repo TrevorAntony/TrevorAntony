@@ -30,7 +30,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 <a href="http://www.github.com/TrevorAntony"><img src="https://github-readme-streak-stats.herokuapp.com/?user=TrevorAntony&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 </p>
 <p align="center">
-<a href="http://www.github.com/TrevorAntony"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=TrevorAntony&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+<a href="http://www.github.com/TrevorAntony"><img src="https://github-contribution-graph.ez4o.com/?username=TrevorAntony&last_n_days=364" alt="TrevorAntony's GitHub Contribution Graph" /></a>
 </p>
 <p align="center">
 <a href="https://github.com/TrevorAntony" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TrevorAntony&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
@@ -52,4 +52,4 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/TrevorOmondi) 
 
   <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-  
+

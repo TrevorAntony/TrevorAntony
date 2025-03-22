@@ -44,23 +44,14 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 <a href="https://github.com/TrevorAntony" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TrevorAntony&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 </p>
 
-## Top Projects
-
-- [**openmrs-esm-patient-management**](https://github.com/TrevorAntony/openmrs-esm-patient-management): Microfrontends for patient management. Stars: 0, Forked: Yes, Language: TypeScript
-- [**openmrs-esm-stock-management**](https://github.com/TrevorAntony/openmrs-esm-stock-management): Stock management microfrontend application. Stars: 0, Forked: Yes, Language: TypeScript
-
-
-## <h1 align="center">🏆GitHub Trophies</h1>
-![](https://github-trophies.vercel.app/?username=TrevorAntony&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4)
+<h1 align="center">🏆GitHub Trophies</h1>
+<p align="center">
+<img src="https://github-trophies.vercel.app/?username=TrevorAntony&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</p>
 
 <h3 align="center">✍️Quote of the day</h3>
 <p align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark" />
-</p>
-
-<h3 align="center">😂Meme of the day</h3>
-<p align="center">
-<img src="https://random-memer.herokuapp.com/" width="512px"/>
 </p>
 
 ## Latest Blog Posts

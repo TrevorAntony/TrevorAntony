@@ -50,7 +50,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 - [**openmrs-esm-stock-management**](https://github.com/TrevorAntony/openmrs-esm-stock-management): Stock management microfrontend application. Stars: 0, Forked: Yes, Language: TypeScript
 
 
-## 🏆GitHub Trophies
+## <h1 align="center">🏆GitHub Trophies</h1>
 ![](https://github-trophies.vercel.app/?username=TrevorAntony&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4)
 
 <h3 align="center">✍️Quote of the day</h3>
@@ -67,8 +67,4 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 Currently, I don't have any blog posts. Stay tuned for updates!
 ---
 [![](https://visitcount.itsvg.in/api?id=TrevorAntony&icon=1&color=5)](https://visitcount.itsvg.in)
-
-  ## 💰Donate
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/trevorantony47@gmail.com) 
-
 

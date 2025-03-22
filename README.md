@@ -1,3 +1,11 @@
+<h1 align="center">
+  <img width="40%" src="https://media0.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif?cid=ecf05e47qjg85psbj19i4as0jyjettm8o58u5jnt90dh6rgr&rid=giphy.gif">
+</h1>
+
+<p align="center">
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Hey,+I'm+Trevor+Antony;I+love+open-source;I+specialize+in+TypeScript;I+build+impactful+solutions;Let's+innovate+together!&center=true&width=500&height=50"></a>
+</p>
+
 Hi 👋 My name is
 ==============================
 ```
@@ -21,6 +29,10 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 *   🧠  I'm learning React
 *   🤝  I'm open to collaborating on interesting projects
 *   ⚡  I'm secretly Spiderman......but don't tell anyone
+
+<p align="center">
+  <img src="https://profile-counter.glitch.me/{TrevorAntony}/count.svg">
+</p>
 
 ## 🌐Socials
 <p align="left"> <a href="https://www.github.com/TrevorAntony" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/itstrevorantony" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/trevor-omondi-142561262/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/itsTrevorAntony" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a></p>
@@ -54,5 +66,5 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 <h3 align="center">✍️Quote of the day</h3>
 <p align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark" />
-</p>## Latest Blog PostsCurrently, I don't have any blog posts. Stay tuned for updates!---[![](https://visitcount.itsvg.in/api?id=TrevorAntony&icon=1&color=5)](https://visitcount.itsvg.in)
+
 

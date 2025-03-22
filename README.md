@@ -35,7 +35,9 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 
 <p align="center">
 <h1 align="center"> 👀 Visit Count </h1>
+<p align="center">
   <img src="https://profile-counter.glitch.me/{TrevorAntony}/count.svg">
+</p>
 </p>
 
 <h1 align="center">🌐Socials</h1>

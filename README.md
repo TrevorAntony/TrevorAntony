@@ -54,8 +54,3 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 <img src="https://quotes-github-readme.vercel.app/api?type=vetical&theme=dark" />
 </p>
 
-## Latest Blog Posts
-Currently, I don't have any blog posts. Stay tuned for updates!
----
-[![](https://visitcount.itsvg.in/api?id=TrevorAntony&icon=1&color=5)](https://visitcount.itsvg.in)
-

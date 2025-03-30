@@ -41,10 +41,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 </p>
 
 <h1 align="center">🌐Socials</h1>
-<p align="center"> 
-  <a href="https://www.github.com/TrevorAntony" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
-  </a> 
+<p align="center"> <a href="https://www.github.com/TrevorAntony" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
   <a href="http://www.instagram.com/itstrevorantony" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
   </a> 
@@ -52,9 +49,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
   </a> 
   <a href="https://www.x.com/itsTrevorAntony" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" />
-  </a>
-</p>
+   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a></p>
 
 <h1 align="center">💻Tech Stack</h1>
 <p align="center">

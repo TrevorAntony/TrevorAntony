@@ -48,8 +48,7 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
   <a href="https://www.linkedin.com/in/trevor-omondi-142561262/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
   </a> 
-  <a href="https://www.x.com/itsTrevorAntony" target="_blank" rel="noreferrer">
-   <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a></p>
+</p>
 
 <h1 align="center">💻Tech Stack</h1>
 <p align="center">

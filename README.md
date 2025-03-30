@@ -65,8 +65,8 @@ I'm a passionate developer who loves crafting elegant solutions to complex probl
 </p>
 
 <h1 align="center">🏆GitHub Trophies</h1>
-<p align="center">
-<img src="https://github-trophies.vercel.app/?username=TrevorAntony&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+<p align="center" style="background-color: #0d1117; display: inline-block; padding: 10px; border-radius: 6px;">
+<img src="https://github-trophies.vercel.app/?username=TrevorAntony&theme=gitdimmed&no-frame=true&margin-w=4" alt="GitHub Trophies" />
 </p>
 
 <h3 align="center">✍️Quote of the day</h3>

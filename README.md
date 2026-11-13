@@ -14,7 +14,7 @@ I'm a full-stack software engineer who loves crafting elegant solutions to compl
 *   ✉️  You can contact me at [trvromondi@gmail.com](mailto:trvromondi@gmail.com)
     <!-- open-source:start -->
 *   🧩  15 merged pull requests in open source: <a href="https://github.com/openmrs/openmrs-esm-stock-management-app">stock management</a> (11), <a href="https://github.com/openmrs-archive/openmrs-esm-clinical-views-builder">clinical views builder</a> (2), <a href="https://github.com/openmrs/openmrs-esm-form-engine-lib">form engine</a> (1), <a href="https://github.com/UCSF-IGHS/openmrs-esm-ohri">OHRI</a> (1)
-    <!-- open-source:end -->
+<!-- open-source:end -->
 *   🤝  I'm open to collaborating on interesting projects
 *   ⚡  I'm secretly Spiderman... but don't tell anyone
 

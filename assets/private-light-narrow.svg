@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 262" width="420" height="262" role="img" aria-label="Merged pull requests per month since October 2021, private and public, shown as totals only">
+<rect width="420" height="262" rx="10" fill="#ffffff"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">
+<text x="44" y="30" font-size="12" fill="#59636e" letter-spacing="1.5">MERGED PULL REQUESTS · SINCE OCT 2021</text>
+<text x="44" y="60" font-size="26" font-weight="600" fill="#1f2328">578</text>
+<text x="107" y="60" font-size="13" fill="#59636e">563 in 17 private repositories</text>
+<text x="44" y="84" font-size="12" fill="#59636e" text-anchor="start">Python 61% · TypeScript 30% · CSS 2% · Shell 2%</text>
+<text x="404" y="250" font-size="11" text-anchor="end"><tspan fill="#1a7f37">■ private</tspan><tspan fill="#59636e">  ■ public</tspan></text>
+<text x="59.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Dec 25</text>
+<rect x="78.5" y="203.1" width="21.0" height="2.9" rx="1.5" fill="#1a7f37"><title>2026-01: 3 private</title></rect>
+<rect x="108.5" y="193.4" width="21.0" height="12.6" rx="1.5" fill="#1a7f37"><title>2026-02: 13 private</title></rect>
+<text x="119.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Feb 26</text>
+<rect x="138.5" y="202.1" width="21.0" height="3.9" rx="1.5" fill="#1a7f37"><title>2026-03: 4 private</title></rect>
+<rect x="168.5" y="170.1" width="21.0" height="35.9" rx="1.5" fill="#1a7f37"><title>2026-04: 37 private</title></rect>
+<text x="179.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Apr 26</text>
+<rect x="198.5" y="143.9" width="21.0" height="62.1" rx="1.5" fill="#1a7f37"><title>2026-05: 64 private</title></rect>
+<rect x="228.5" y="167.2" width="21.0" height="38.8" rx="1.5" fill="#1a7f37"><title>2026-06: 40 private</title></rect>
+<text x="239.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Jun 26</text>
+<rect x="258.5" y="158.5" width="21.0" height="47.5" rx="1.5" fill="#1a7f37"><title>2026-07: 49 private</title></rect>
+<rect x="288.5" y="110.0" width="21.0" height="96.0" rx="1.5" fill="#1a7f37"><title>2026-08: 99 private</title></rect>
+<text x="299.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Aug 26</text>
+<rect x="318.5" y="153.6" width="21.0" height="52.4" rx="1.5" fill="#1a7f37"><title>2026-09: 54 private</title></rect>
+<rect x="348.5" y="132.3" width="21.0" height="73.7" rx="1.5" fill="#1a7f37"><title>2026-10: 76 private</title></rect>
+<text x="359.0" y="224" font-size="10" fill="#59636e" text-anchor="middle">Oct 26</text>
+<rect x="378.5" y="123.6" width="21.0" height="82.4" rx="1.5" fill="#1a7f37"><title>2026-11: 85 private</title></rect>
+<line x1="44" x2="404" y1="206" y2="206" stroke="rgba(31,35,40,0.08)"/>
+</g></svg>

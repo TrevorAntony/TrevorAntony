@@ -188,8 +188,19 @@ def open_source_section(search: dict) -> str:
         url, n = counts.get(name, (repo["url"], 0))
         counts[name] = (url, n + 1)
     rows = sorted(counts.items(), key=lambda item: -item[1][1])
-    items = " · ".join(f'<a href="{url}">{name.split("/")[1]}</a> <sub>{n}</sub>' for name, (url, n) in rows)
-    return f"<sub>MERGED PULL REQUESTS IN PUBLIC REPOSITORIES</sub><br>{items}" if items else ""
+    total = sum(n for _, (_, n) in rows)
+    items = ", ".join(f'<a href="{url}">{_readable(name)}</a> ({n})' for name, (url, n) in rows)
+    return f"*   🧩  {total} merged pull requests in open source: {items}" if items else ""
+
+
+def _readable(name: str) -> str:
+    """openmrs/openmrs-esm-stock-management-app reads as "stock management"."""
+    repo = name.split("/")[1]
+    for prefix in ("openmrs-esm-", "openmrs-"):
+        repo = repo.removeprefix(prefix)
+    words = repo.removesuffix("-app").removesuffix("-lib").split("-")
+    # A one-word name of four letters or fewer is an acronym, such as OHRI.
+    return words[0].upper() if len(words) == 1 and len(words[0]) <= 4 else " ".join(words)
 
 
 def hero_svg(theme: Theme, width: int = 880) -> str:

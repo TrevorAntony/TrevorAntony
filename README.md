@@ -5,11 +5,18 @@
   <img src="assets/hero-light.svg" width="100%" alt="Trevor Antony, full-stack software engineer working on AI and UI/UX.">
 </picture>
 
-Full-stack software engineer in Nairobi, building AI products end to end, with a particular eye for frontend and UI/UX. I design and ship the interface people touch and everything behind it: React and TypeScript design systems, Python services and data pipelines, and AI assistants that act with human approval.
+I'm a full-stack software engineer who loves crafting elegant solutions to complex problems, and I'm most at home in frontend and UI/UX. These days I build AI-assisted data platforms end to end: the interface people use, the Python services and pipelines behind it, and AI assistants that only change things once a person approves.
 
-**Frontend and UI/UX** · design systems and component frameworks, YAML-driven interfaces, accessible dashboards, dark and light theming, phone-first layouts.<br>
-**AI** · agent tooling with approval flows, model routing and budgets, chat that renders live data views.<br>
-**Full stack** · FastAPI and SQLAlchemy services, workflow engines, PostgreSQL, Docker, Playwright end-to-end tests.
+*   🌍  I'm based in Nairobi
+*   🚀  I'm currently building AI tooling, workflow engines and the design system the apps run on
+*   🎨  I care about the details: design systems, accessible dashboards, dark and light themes, phone-first layouts
+*   🖥️  See my portfolio at [TrevorAntony](http://portfolio-psi-liart-96.vercel.app/)
+*   ✉️  You can contact me at [trvromondi@gmail.com](mailto:trvromondi@gmail.com)
+    <!-- open-source:start -->
+*   🧩  15 merged pull requests in open source: <a href="https://github.com/openmrs/openmrs-esm-stock-management-app">stock management</a> (11), <a href="https://github.com/openmrs-archive/openmrs-esm-clinical-views-builder">clinical views builder</a> (2), <a href="https://github.com/openmrs/openmrs-esm-form-engine-lib">form engine</a> (1), <a href="https://github.com/UCSF-IGHS/openmrs-esm-ohri">OHRI</a> (1)
+    <!-- open-source:end -->
+*   🤝  I'm open to collaborating on interesting projects
+*   ⚡  I'm secretly Spiderman... but don't tell anyone
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/activity-dark-narrow.svg">
@@ -25,29 +32,14 @@ Full-stack software engineer in Nairobi, building AI products end to end, with a
   <img src="assets/private-light.svg" width="100%" alt="Merged pull requests per month since October 2021, private and public, shown as totals only.">
 </picture>
 
-<details>
-<summary><b>How an AI change reaches the data</b></summary>
-
-```mermaid
-flowchart LR
-  P[Person] -->|asks| C[Chat UI]
-  C --> R[Router: task, sensitivity, budget]
-  R --> M[Model]
-  M -->|proposes a change| A{Approval card}
-  A -->|approved| V[Verb with its policy]
-  V --> D[(Database)]
-  V -->|receipt| C
-  A -->|declined| C
-```
-
-</details>
-
-<p>
-<!-- open-source:start -->
-<sub>MERGED PULL REQUESTS IN PUBLIC REPOSITORIES</sub><br><a href="https://github.com/openmrs/openmrs-esm-stock-management-app">openmrs-esm-stock-management-app</a> <sub>11</sub> · <a href="https://github.com/openmrs-archive/openmrs-esm-clinical-views-builder">openmrs-esm-clinical-views-builder</a> <sub>2</sub> · <a href="https://github.com/openmrs/openmrs-esm-form-engine-lib">openmrs-esm-form-engine-lib</a> <sub>1</sub> · <a href="https://github.com/UCSF-IGHS/openmrs-esm-ohri">openmrs-esm-ohri</a> <sub>1</sub>
-<!-- open-source:end -->
+<h3 align="center">Tech Stack</h3>
+<p align="center">
+<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>&nbsp;<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>&nbsp;<a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>&nbsp;<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="Tailwind CSS" /></a>&nbsp;<a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" /></a>&nbsp;<a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="Node.js" /></a>&nbsp;<a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" width="36" height="36" alt="FastAPI" /></a>&nbsp;<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>&nbsp;<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/docker-colored.svg" width="36" height="36" alt="Docker" /></a>&nbsp;<a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>&nbsp;<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>&nbsp;<a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored.svg" width="36" height="36" alt="AWS" /></a>&nbsp;
 </p>
 
-Before this I worked on health software: OpenMRS 3 microfrontends and DUFT, a data analysis tool for health programmes.
-
-<sub>[Portfolio](http://portfolio-psi-liart-96.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/trevor-omondi-142561262/) · trvromondi@gmail.com</sub>
+<h3 align="center">Socials</h3>
+<p align="center">
+<a href="https://www.github.com/TrevorAntony" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" /></picture></a>&nbsp;
+<a href="https://www.linkedin.com/in/trevor-omondi-142561262/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>&nbsp;
+<a href="http://www.instagram.com/itstrevorantony" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" alt="Instagram" /></a>
+</p>

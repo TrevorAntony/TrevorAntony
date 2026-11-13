@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 230" width="434" height="230" role="img" aria-label="A design system: a button moving through hover, pressed and focus states, a toggle, a chip selection and a search field being typed into.">
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .btn { transform-box: fill-box; transform-origin: center; animation: btn 8s ease-in-out infinite; }
+  .ring { animation: ring 8s ease-in-out infinite; }
+  .state { animation: state 8s steps(1) infinite; }
+  .tknob { animation: tknob 8s ease-in-out infinite; }
+  .ttrack { animation: ttrack 8s ease-in-out infinite; }
+  .chip { animation: chip 8s ease-in-out infinite; }
+  .typed { animation: typed 8s steps(14) infinite; }
+  @keyframes btn { 0%,10% { transform: scale(1); filter: none; } 18%,26% { transform: scale(1); filter: brightness(1.18); } 30%,34% { transform: scale(0.94); } 40%,100% { transform: scale(1); filter: none; } }
+  @keyframes ring { 0%,44% { opacity: 0; } 50%,70% { opacity: 1; } 76%,100% { opacity: 0; } }
+  @keyframes tknob { 0%,30% { transform: translateX(0); } 38%,80% { transform: translateX(18px); } 88%,100% { transform: translateX(0); } }
+  @keyframes ttrack { 0%,30% { fill: #59636e; } 38%,80% { fill: #1a7f37; } 88%,100% { fill: #59636e; } }
+  @keyframes chip { 0%,20% { transform: translateX(0); } 28%,48% { transform: translateX(84px); } 56%,76% { transform: translateX(168px); } 84%,100% { transform: translateX(0); } }
+  @keyframes typed { 0%,10% { width: 0; } 50%,90% { width: 140px; } 100% { width: 0; } }
+}
+</style>
+<rect width="434" height="230" rx="10" fill="#ffffff"/>
+<text x="20" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#59636e">DESIGN SYSTEM</text>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+  <rect class="ring" x="16" y="44" width="132" height="44" rx="12" fill="none" stroke="#0969da" stroke-width="2" opacity="0"/>
+  <g class="btn"><rect x="20" y="48" width="124" height="36" rx="9" fill="#0969da"/><text x="82" y="71" font-size="13" font-weight="600" text-anchor="middle" fill="#ffffff">New profile</text></g>
+  <rect class="ttrack" x="172" y="56" width="40" height="22" rx="11" fill="#59636e"/>
+  <circle class="tknob" cx="184" cy="67" r="8" fill="#ffffff"/>
+  <text x="222" y="72" font-size="12" fill="#59636e">Dark mode</text>
+  <rect x="20" y="114" width="252" height="32" rx="16" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <rect class="chip" x="22" y="116" width="80" height="28" rx="14" fill="#0969da" opacity="0.18"/>
+  <text x="62" y="134" font-size="12" text-anchor="middle" fill="#1f2328">Overview</text><text x="146" y="134" font-size="12" text-anchor="middle" fill="#1f2328">Usage</text><text x="230" y="134" font-size="12" text-anchor="middle" fill="#1f2328">Budgets</text>
+  <rect x="20" y="166" width="394" height="40" rx="9" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <text x="34" y="191" font-size="13" fill="#59636e">⌕</text>
+  <clipPath id="typing"><rect class="typed" x="54" y="172" width="0" height="28"/></clipPath>
+  <text x="54" y="191" font-size="13" fill="#1f2328" clip-path="url(#typing)">Search profiles…</text>
+</g>
+</svg>

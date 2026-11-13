@@ -1,44 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="880" height="220" role="img"
- aria-label="Trevor Antony, full-stack software engineer working on AI and UI/UX. A small interface switches theme and asks to approve a change.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 220" width="880" height="220" role="img" aria-label="Trevor Antony, full-stack software engineer working on AI and UI/UX. A small window loads a dashboard card and switches theme.">
 <style>
 @media (prefers-reduced-motion: no-preference) {
-  .cursor { animation: move 8s ease-in-out infinite; }
+  .skeleton { animation: skeleton 8s ease-in-out infinite; }
+  .content { animation: content 8s ease-in-out infinite; }
+  .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 8s ease-out infinite; }
   .night { animation: night 8s ease-in-out infinite; }
   .knob { animation: knob 8s ease-in-out infinite; }
-  .ask { animation: ask 8s ease-out infinite; }
-  .tick { animation: tick 8s ease-out infinite; }
-  .caret { animation: blink 1.1s steps(1) infinite; }
   .ink { animation: ink 8s ease-in-out infinite; }
+  .cursor { animation: cursor 8s ease-in-out infinite; }
+  .caret { animation: blink 1.1s steps(1) infinite; }
+  @keyframes skeleton { 0%,18% { opacity: 1; } 26%,100% { opacity: 0; } }
+  @keyframes content { 0%,20% { opacity: 0; } 28%,100% { opacity: 1; } }
+  @keyframes grow { 0%,24% { transform: scaleY(0.05); } 40%,100% { transform: scaleY(1); } }
+  @keyframes cursor { 0%,40% { transform: translate(0,0); } 54%,64% { transform: translate(260px,-112px); } 86%,100% { transform: translate(0,0); } }
+  @keyframes night { 0%,56% { opacity: 0; } 62%,92% { opacity: 1; } 98%,100% { opacity: 0; } }
+  @keyframes knob { 0%,56% { transform: translateX(0); } 62%,92% { transform: translateX(14px); } 98%,100% { transform: translateX(0); } }
+  @keyframes ink { 0%,56% { fill: #e6edf3; } 62%,92% { fill: #e6edf3; } 98%,100% { fill: #e6edf3; } }
+  @keyframes blink { 50% { opacity: 0; } }
 }
-@keyframes move { 0%,8% { transform: translate(0,0); } 22%,30% { transform: translate(276px,-104px); } 52%,60% { transform: translate(240px,-4px); } 78%,100% { transform: translate(0,0); } }
-@keyframes night { 0%,24% { opacity: 0; } 30%,92% { opacity: 1; } 98%,100% { opacity: 0; } }
-@keyframes knob { 0%,24% { transform: translateX(0); } 30%,92% { transform: translateX(14px); } 98%,100% { transform: translateX(0); } }
-@keyframes ask { 0%,34% { opacity: 0; transform: translateY(6px); } 40%,92% { opacity: 1; transform: translateY(0); } 98%,100% { opacity: 0; } }
-@keyframes tick { 0%,56% { opacity: 0; } 60%,92% { opacity: 1; } 98%,100% { opacity: 0; } }
-@keyframes blink { 50% { opacity: 0; } }
-@keyframes ink { 0%,24% { fill: #e6edf3; } 30%,92% { fill: #e6edf3; } 98%,100% { fill: #e6edf3; } }
 </style>
 <rect width="880" height="220" rx="10" fill="#0d1117"/>
+<text x="20" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#8b949e"></text>
 <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
   <text x="40" y="84" font-size="38" font-weight="700" fill="#e6edf3">Trevor Antony<tspan class="caret" fill="#d29922">_</tspan></text>
   <text x="40" y="118" font-size="16" fill="#8b949e">Full-stack software engineer · AI · UI/UX</text>
   <text x="40" y="144" font-size="13" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">Nairobi · React · TypeScript · Python</text>
 </g>
 <g transform="translate(500,28)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
-  <rect width="360" height="164" rx="10" fill="#e6edf3" opacity="0.05" stroke="#8b949e" stroke-opacity="0.35"/>
-  <rect class="night" width="360" height="164" rx="10" fill="#010409" opacity="0"/>
+  <rect width="360" height="164" rx="10" fill="#161b22" stroke="#30363d"/>
+  <rect class="night" width="360" height="164" rx="10" fill="#0d1117" opacity="0"/>
   <circle cx="16" cy="16" r="4" fill="#f85149"/><circle cx="30" cy="16" r="4" fill="#d29922"/><circle cx="44" cy="16" r="4" fill="#3fb950"/>
   <rect x="308" y="9" width="34" height="14" rx="7" fill="#8b949e" opacity="0.5"/>
   <g class="knob"><circle class="ink" cx="316" cy="16" r="5" fill="#e6edf3"/></g>
-  <rect x="16" y="38" width="198" height="8" rx="4" fill="#8b949e" opacity="0.45"/>
-  <rect x="16" y="54" width="144" height="8" rx="4" fill="#8b949e" opacity="0.3"/>
-  <g class="ask" opacity="0">
-    <rect x="16" y="76" width="328" height="56" rx="8" fill="#d29922" opacity="0.12"/>
-    <text class="ink" x="28" y="98" font-size="12" fill="#e6edf3">Assistant · Let the support bot use a new model?</text>
-    <rect x="240" y="108" width="80" height="18" rx="9" fill="#3fb950"/>
-    <text x="280" y="121" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Approve</text>
-    <text class="tick" x="28" y="122" font-size="11" fill="#3fb950" opacity="0">✓ Allowed, version 4</text>
+  <g class="skeleton">
+    <rect x="16" y="40" width="180" height="10" rx="5" fill="#8b949e" opacity="0.3"/>
+    <rect x="16" y="60" width="115" height="10" rx="5" fill="#8b949e" opacity="0.2"/>
+    <rect x="16" y="84" width="328" height="64" rx="8" fill="#8b949e" opacity="0.12"/>
   </g>
-  <g class="cursor"><path d="M40 120 l0 16 l4 -4 l3 7 l3 -1 l-3 -7 l6 0 z" fill="#e6edf3" stroke="#0d1117" stroke-width="1"/></g>
+  <g class="content" opacity="0">
+    <text class="ink" x="16" y="48" font-size="12" fill="#e6edf3">Requests this week</text>
+    <text class="ink" x="16" y="72" font-size="22" font-weight="700" fill="#e6edf3">1,284</text>
+    <text x="84" y="72" font-size="12" fill="#3fb950">+18%</text>
+    <rect class="bar" style="animation-delay:0.00s" x="22" y="108" width="18" height="34" rx="3" fill="#4493f8" opacity="0.55"/><rect class="bar" style="animation-delay:0.08s" x="52" y="90" width="18" height="52" rx="3" fill="#4493f8" opacity="0.62"/><rect class="bar" style="animation-delay:0.16s" x="82" y="102" width="18" height="40" rx="3" fill="#4493f8" opacity="0.69"/><rect class="bar" style="animation-delay:0.24s" x="112" y="74" width="18" height="68" rx="3" fill="#4493f8" opacity="0.76"/><rect class="bar" style="animation-delay:0.32s" x="142" y="84" width="18" height="58" rx="3" fill="#4493f8" opacity="0.83"/><rect class="bar" style="animation-delay:0.40s" x="172" y="62" width="18" height="80" rx="3" fill="#4493f8" opacity="0.90"/>
+  </g>
+  <g class="cursor"><path d="M70 130 l0 16 l4 -4 l3 7 l3 -1 l-3 -7 l6 0 z" fill="#e6edf3" stroke="#0d1117" stroke-width="1"/></g>
 </g>
 </svg>

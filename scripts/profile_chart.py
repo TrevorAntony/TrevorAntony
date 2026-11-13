@@ -21,6 +21,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from statistics import mean
 
+import cards
+
 ROOT = Path(__file__).resolve().parent.parent
 LOGIN = os.environ.get("PROFILE_LOGIN", "TrevorAntony")
 DAYS = 120
@@ -203,59 +205,6 @@ def _readable(name: str) -> str:
     return words[0].upper() if len(words) == 1 and len(words[0]) <= 4 else " ".join(words)
 
 
-def hero_svg(theme: Theme, width: int = 880) -> str:
-    """The profile's opening card: the name, and a small interface that switches theme and asks to approve a change."""
-    narrow = width < 600
-    height = 300 if narrow else 220
-    ui_x, ui_y = (20, 120) if narrow else (width - 380, 28)
-    ui_w, ui_h = (width - 40, 160) if narrow else (360, 164)
-    sans = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img"
- aria-label="Trevor Antony, full-stack software engineer working on AI and UI/UX. A small interface switches theme and asks to approve a change.">
-<style>
-@media (prefers-reduced-motion: no-preference) {{
-  .cursor {{ animation: move 8s ease-in-out infinite; }}
-  .night {{ animation: night 8s ease-in-out infinite; }}
-  .knob {{ animation: knob 8s ease-in-out infinite; }}
-  .ask {{ animation: ask 8s ease-out infinite; }}
-  .tick {{ animation: tick 8s ease-out infinite; }}
-  .caret {{ animation: blink 1.1s steps(1) infinite; }}
-  .ink {{ animation: ink 8s ease-in-out infinite; }}
-}}
-@keyframes move {{ 0%,8% {{ transform: translate(0,0); }} 22%,30% {{ transform: translate({ui_w - 84}px,-104px); }} 52%,60% {{ transform: translate({ui_w - 120}px,-4px); }} 78%,100% {{ transform: translate(0,0); }} }}
-@keyframes night {{ 0%,24% {{ opacity: 0; }} 30%,92% {{ opacity: 1; }} 98%,100% {{ opacity: 0; }} }}
-@keyframes knob {{ 0%,24% {{ transform: translateX(0); }} 30%,92% {{ transform: translateX(14px); }} 98%,100% {{ transform: translateX(0); }} }}
-@keyframes ask {{ 0%,34% {{ opacity: 0; transform: translateY(6px); }} 40%,92% {{ opacity: 1; transform: translateY(0); }} 98%,100% {{ opacity: 0; }} }}
-@keyframes tick {{ 0%,56% {{ opacity: 0; }} 60%,92% {{ opacity: 1; }} 98%,100% {{ opacity: 0; }} }}
-@keyframes blink {{ 50% {{ opacity: 0; }} }}
-@keyframes ink {{ 0%,24% {{ fill: {theme.fg}; }} 30%,92% {{ fill: #e6edf3; }} 98%,100% {{ fill: {theme.fg}; }} }}
-</style>
-<rect width="{width}" height="{height}" rx="10" fill="{theme.ink}"/>
-<g font-family="{sans}">
-  <text x="{20 if narrow else 40}" y="{48 if narrow else 84}" font-size="{30 if narrow else 38}" font-weight="700" fill="{theme.fg}">Trevor Antony<tspan class="caret" fill="{theme.average}">_</tspan></text>
-  <text x="{20 if narrow else 40}" y="{76 if narrow else 118}" font-size="{14 if narrow else 16}" fill="{theme.muted}">Full-stack software engineer · AI · UI/UX</text>
-  <text x="{20 if narrow else 40}" y="{98 if narrow else 144}" font-size="{12 if narrow else 13}" fill="{theme.muted}" font-family="{FONT}">Nairobi · React · TypeScript · Python</text>
-</g>
-<g transform="translate({ui_x},{ui_y})" font-family="{sans}">
-  <rect width="{ui_w}" height="{ui_h}" rx="10" fill="{theme.fg}" opacity="0.05" stroke="{theme.muted}" stroke-opacity="0.35"/>
-  <rect class="night" width="{ui_w}" height="{ui_h}" rx="10" fill="#010409" opacity="0"/>
-  <circle cx="16" cy="16" r="4" fill="{theme.down}"/><circle cx="30" cy="16" r="4" fill="{theme.average}"/><circle cx="44" cy="16" r="4" fill="{theme.up}"/>
-  <rect x="{ui_w - 52}" y="9" width="34" height="14" rx="7" fill="{theme.muted}" opacity="0.5"/>
-  <g class="knob"><circle class="ink" cx="{ui_w - 44}" cy="16" r="5" fill="{theme.fg}"/></g>
-  <rect x="16" y="38" width="{ui_w * 0.55:.0f}" height="8" rx="4" fill="{theme.muted}" opacity="0.45"/>
-  <rect x="16" y="54" width="{ui_w * 0.4:.0f}" height="8" rx="4" fill="{theme.muted}" opacity="0.3"/>
-  <g class="ask" opacity="0">
-    <rect x="16" y="76" width="{ui_w - 32}" height="56" rx="8" fill="{theme.average}" opacity="0.12"/>
-    <text class="ink" x="28" y="98" font-size="12" fill="{theme.fg}">Assistant · Let the support bot use a new model?</text>
-    <rect x="{ui_w - 120}" y="108" width="80" height="18" rx="9" fill="{theme.up}"/>
-    <text x="{ui_w - 80}" y="121" font-size="11" fill="#ffffff" text-anchor="middle" font-weight="600">Approve</text>
-    <text class="tick" x="28" y="122" font-size="11" fill="#3fb950" opacity="0">✓ Allowed, version 4</text>
-  </g>
-  <g class="cursor"><path d="M40 120 l0 16 l4 -4 l3 7 l3 -1 l-3 -7 l6 0 z" fill="{theme.fg}" stroke="{theme.ink}" stroke-width="1"/></g>
-</g>
-</svg>"""
-
-
 def _get(path: str, token: str):
     request = urllib.request.Request(
         f"{REST}/{path}", headers={"Authorization": f"bearer {token}", "Accept": "application/vnd.github+json", "User-Agent": "profile-chart"}
@@ -364,9 +313,12 @@ def main() -> None:
     longest, current = streaks(calendar)
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
+    for name, palette in (("dark", cards.DARK), ("light", cards.LIGHT)):
+        (assets / f"hero-{name}.svg").write_text(cards.hero(palette), encoding="utf-8")
+        (assets / f"hero-{name}-narrow.svg").write_text(cards.hero(palette, width=420), encoding="utf-8")
+        for card, draw in cards.CARDS.items():
+            (assets / f"card-{card}-{name}.svg").write_text(draw(palette), encoding="utf-8")
     for name, theme in (("dark", DARK), ("light", LIGHT)):
-        (assets / f"hero-{name}.svg").write_text(hero_svg(theme), encoding="utf-8")
-        (assets / f"hero-{name}-narrow.svg").write_text(hero_svg(theme, width=420), encoding="utf-8")
         (assets / f"activity-{name}.svg").write_text(svg(candles, calendar["totalContributions"], longest, current, theme), encoding="utf-8")
         (assets / f"activity-{name}-narrow.svg").write_text(svg(candles, calendar["totalContributions"], longest, current, theme, width=420, days=45), encoding="utf-8")
     # Private work needs a token of the profile's owner; without one, the last drawn card is kept as it is.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 230" width="434" height="230" role="img" aria-label="A desktop layout with a sidebar and three cards folding into a phone layout with stacked cards and a bottom tab bar.">
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .wide { animation: wide 8s ease-in-out infinite; }
+  .phone { animation: phone 8s ease-in-out infinite; }
+  @keyframes wide { 0%,30% { opacity: 1; } 40%,80% { opacity: 0; } 90%,100% { opacity: 1; } }
+  @keyframes phone { 0%,30% { opacity: 0; } 40%,80% { opacity: 1; } 90%,100% { opacity: 0; } }
+}
+</style>
+<rect width="434" height="230" rx="10" fill="#ffffff"/>
+<text x="20" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#59636e">RESPONSIVE</text>
+<rect x="20" y="44" width="394" height="166" rx="10" fill="#f6f8fa" stroke="#d1d9e0"><animate attributeName="x" values="20;20;152;152;20" keyTimes="0;0.3;0.4;0.82;0.92" dur="8s" repeatCount="indefinite"/><animate attributeName="width" values="394;394;130;130;394" keyTimes="0;0.3;0.4;0.82;0.92" dur="8s" repeatCount="indefinite"/></rect>
+<g class="wide">
+  <rect x="30" y="54" width="80" height="146" rx="6" fill="#59636e" opacity="0.14"/>
+  <rect x="40" y="68" width="56" height="8" rx="4" fill="#59636e" opacity="0.45"/><rect x="40" y="88" width="50" height="8" rx="4" fill="#59636e" opacity="0.45"/><rect x="40" y="108" width="44" height="8" rx="4" fill="#59636e" opacity="0.45"/><rect x="40" y="128" width="38" height="8" rx="4" fill="#59636e" opacity="0.45"/>
+  <rect x="124" y="60" width="140" height="12" rx="6" fill="#1f2328" opacity="0.7"/>
+  <rect x="124" y="96" width="84" height="56" rx="6" fill="#0969da" opacity="0.25"/><rect x="220" y="96" width="84" height="56" rx="6" fill="#0969da" opacity="0.37"/><rect x="316" y="96" width="84" height="56" rx="6" fill="#0969da" opacity="0.49"/>
+  <rect x="124" y="164" width="276" height="30" rx="6" fill="#59636e" opacity="0.14"/>
+</g>
+<g class="phone" opacity="0">
+  <rect x="162" y="56" width="70" height="10" rx="5" fill="#1f2328" opacity="0.7"/>
+  <rect x="162" y="78" width="110" height="26" rx="5" fill="#0969da" opacity="0.25"/><rect x="162" y="112" width="110" height="26" rx="5" fill="#0969da" opacity="0.37"/><rect x="162" y="146" width="110" height="26" rx="5" fill="#0969da" opacity="0.49"/>
+  <line x1="152" x2="282" y1="184" y2="184" stroke="#d1d9e0"/>
+  <circle cx="180" cy="196" r="4" fill="#59636e"/><circle cx="217" cy="196" r="4" fill="#59636e"/><circle cx="254" cy="196" r="4" fill="#59636e"/>
+</g>
+</svg>
